@@ -1,0 +1,71 @@
+#calculator {
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgba(117, 113, 116, 0.23);
+    padding: 15px;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+.button-row {
+    margin-top: 5px;
+    padding: 0;
+}
+
+body {
+    font-family:'Orbitron', sans-serif;
+}
+
+.btn {
+    background-color: #3a3a3a ;
+    color: white;
+    border-radius: 7px;
+    border: 1px black solid;
+    box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+    min-width: 100px;
+}
+
+#button-0 {
+    min-width: 215px;
+}
+
+.btn:hover, .btn:active, .btn:focus, .btn:active:focus {
+    background-color: #626262;
+    border: 1px black solid;
+}
+
+#values {
+    background-color: #cdcdb3;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    text-align: right;
+    box-shadow: 0 0 2px 0 black;
+}
+
+.button-row > div {
+    padding: 0;
+}
+
+#calc-heading {
+    margin-bottom: 20px;
+    color: #2a2a2a;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+#subBox {
+    font-size: 20px;
+}
+
+#valueBox {
+    font-size: 12px;
+    color: #6e6e6e;
+}
+
+#equalsButton {
+    position: absolute;
+    height: 91px;
+    background-color: #eea200;
+    z-index: 300;
+}
